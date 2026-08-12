@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg-primary: #0f172a;
+  --bg-secondary: #111827;
+  --bg-tertiary: #1e293b;
+
+  --text-primary: #f9fafb;
+  --text-secondary: #e2e8f0;
+  --text-muted: #94a3b8;
+
+  --accent: #22d3ee;
+  --border-color: #334155;
+  --border-soft: #475569;
+
+  --panel-overlay: rgba(15, 23, 42, 0.72);
+  --panel-soft: rgba(15, 23, 42, 0.58);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg-primary: #f1f5f9;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #e2e8f0;
+
+  --text-primary: #111827;
+  --text-secondary: #334155;
+  --text-muted: #475569;
+
+  --accent: #0284c7;
+  --border-color: #cbd5e1;
+  --border-soft: #dbe3f0;
+
+  --panel-overlay: rgba(255, 255, 255, 0.74);
+  --panel-soft: rgba(248, 250, 252, 0.66);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "SF Pro Text", system-ui, -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.page-atmosphere {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(14, 165, 233, 0.18), transparent 36%),
+    radial-gradient(circle at 85% 20%, rgba(168, 85, 247, 0.14), transparent 32%),
+    radial-gradient(circle at 60% 85%, rgba(34, 211, 238, 0.14), transparent 35%);
+}
+
+@layer components {
+  .glass-panel {
+    background: var(--panel-overlay);
+    border: 1px solid color-mix(in srgb, var(--border-color), transparent 25%);
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .glass-soft {
+    background: color-mix(in srgb, var(--bg-secondary), transparent 22%);
+    border: 1px solid color-mix(in srgb, var(--border-soft), transparent 20%);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  .panel {
+    background: var(--panel-overlay);
+    border: 1px solid color-mix(in srgb, var(--border-color), transparent 20%);
+    box-shadow: 0 16px 35px rgba(2, 6, 23, 0.24);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: background-color 300ms ease-in-out, border-color 300ms ease-in-out;
+  }
+
+  .panel-soft {
+    background: var(--panel-soft);
+    border: 1px solid color-mix(in srgb, var(--border-soft), transparent 22%);
+    transition: background-color 300ms ease-in-out, border-color 300ms ease-in-out;
+  }
+}
+
+button,
+select,
+input,
+textarea {
+  font: inherit;
+}
+
+.js-plotly-plot .modebar {
+  background: rgba(15, 23, 42, 0.55) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 8px !important;
+  backdrop-filter: blur(4px);
+}
+
+[data-theme="light"] .js-plotly-plot .modebar {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border: 1px solid rgba(148, 163, 184, 0.45) !important;
+}
+
+.js-plotly-plot .modebar-btn {
+  color: #f8fafc !important;
+}
+
+[data-theme="light"] .js-plotly-plot .modebar-btn {
+  color: #1f2937 !important;
+}
+
+.js-plotly-plot .legend text,
+.js-plotly-plot .gtitle,
+.js-plotly-plot .cbtitle {
+  font-family: "Inter", system-ui, sans-serif !important;
+}
+
+@media (max-width: 1024px) {
+  .page-atmosphere {
+    background:
+      radial-gradient(circle at 20% 0%, rgba(14, 165, 233, 0.16), transparent 30%),
+      radial-gradient(circle at 80% 100%, rgba(168, 85, 247, 0.12), transparent 28%);
+  }
+}

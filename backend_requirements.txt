@@ -1,0 +1,6 @@
+flask==2.3.3
+flask-cors==4.0.1
+numpy==2.2.4
+scipy==1.15.2
+xarray==2025.1.2
+netCDF4==1.7.2

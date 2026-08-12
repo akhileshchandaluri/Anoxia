@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "created": "2026-04-02T03:52:08.542338",
+    "method": "Spatial correlation + directional analysis",
+    "monsoon_direction": "Southwest (NE-SW)",
+    "correlation_threshold": 0.5
+  },
+  "links": [
+    {
+      "river_name": "Narmada",
+      "river_lat": 21.8,
+      "river_lon": 72.6,
+      "downstream_zone": "Arabian Sea Coastal",
+      "zone_lat": 19.0,
+      "zone_lon": 70.0,
+      "correlation_strength": 0.363,
+      "plume_path": [
+        {
+          "lat": 21.8,
+          "lon": 72.6
+        },
+        {
+          "lat": 21.65,
+          "lon": 72.46
+        },
+        {
+          "lat": 21.51,
+          "lon": 72.33
+        },
+        {
+          "lat": 21.36,
+          "lon": 72.19
+        },
+        {
+          "lat": 21.21,
+          "lon": 72.05
+        },
+        {
+          "lat": 21.06,
+          "lon": 71.92
+        },
+        {
+          "lat": 20.92,
+          "lon": 71.78
+        },
+        {
+          "lat": 20.77,
+          "lon": 71.64
+        },
+        {
+          "lat": 20.62,
+          "lon": 71.51
+        },
+        {
+          "lat": 20.47,
+          "lon": 71.37
+        }
+      ],
+      "explanation": "Monsoon plume from Narmada basin (98796 km\u00b2) correlates with downstream hypoxic zone at (19.0\u00b0N, 70.0\u00b0E)"
+    }
+  ]
+}

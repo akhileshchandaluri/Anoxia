@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "created": "2026-04-02T03:52:08.540937",
+    "source": "ANOXIA Project - River Discharge Analysis",
+    "monsoon_season": "June-October",
+    "region": "Indian Ocean - Arabian Sea and Bay of Bengal"
+  },
+  "rivers": [
+    {
+      "name": "Mahanadi",
+      "lat": 20.5,
+      "lon": 86.5,
+      "flow_rate": "HIGH",
+      "basin_size_km2": 141589,
+      "discharge_class": "MEDIUM",
+      "plume_direction": {
+        "north_component": -0.707,
+        "east_component": -0.707,
+        "description": "Southwest (monsoon-driven)"
+      },
+      "plume_endpoint": {
+        "lat": 19.09,
+        "lon": 85.09,
+        "description": "Estimated plume center after 200 km spread"
+      },
+      "seasonal_pattern": {
+        "monsoon_peak": "August-October",
+        "intensity_factor": 1.3,
+        "dry_season_factor": 0.6
+      }
+    },
+    {
+      "name": "Godavari",
+      "lat": 16.7,
+      "lon": 82.3,
+      "flow_rate": "HIGH",
+      "basin_size_km2": 312812,
+      "discharge_class": "VERY HIGH",
+      "plume_direction": {
+        "north_component": -0.707,
+        "east_component": -0.707,
+        "description": "Southwest (monsoon-driven)"
+      },
+      "plume_endpoint": {
+        "lat": 15.29,
+        "lon": 80.89,
+        "description": "Estimated plume center after 200 km spread"
+      },
+      "seasonal_pattern": {
+        "monsoon_peak": "August-October",
+        "intensity_factor": 1.3,
+        "dry_season_factor": 0.6
+      }
+    },
+    {
+      "name": "Krishna",
+      "lat": 14.3,
+      "lon": 79.8,
+      "flow_rate": "MEDIUM",
+      "basin_size_km2": 258948,
+      "discharge_class": "HIGH",
+      "plume_direction": {
+        "north_component": -0.707,
+        "east_component": -0.707,
+        "description": "Southwest (monsoon-driven)"
+      },
+      "plume_endpoint": {
+        "lat": 12.89,
+        "lon": 78.39,
+        "description": "Estimated plume center after 200 km spread"
+      },
+      "seasonal_pattern": {
+        "monsoon_peak": "August-October",
+        "intensity_factor": 1.3,
+        "dry_season_factor": 0.6
+      }
+    },
+    {
+      "name": "Narmada",
+      "lat": 21.8,
+      "lon": 72.6,
+      "flow_rate": "MEDIUM",
+      "basin_size_km2": 98796,
+      "discharge_class": "MEDIUM",
+      "plume_direction": {
+        "north_component": -0.707,
+        "east_component": -0.707,
+        "description": "Southwest (monsoon-driven)"
+      },
+      "plume_endpoint": {
+        "lat": 20.39,
+        "lon": 71.19,
+        "description": "Estimated plume center after 200 km spread"
+      },
+      "seasonal_pattern": {
+        "monsoon_peak": "August-October",
+        "intensity_factor": 1.3,
+        "dry_season_factor": 0.6
+      }
+    },
+    {
+      "name": "Indus",
+      "lat": 24.8,
+      "lon": 67.2,
+      "flow_rate": "HIGH",
+      "basin_size_km2": 1165500,
+      "discharge_class": "VERY HIGH",
+      "plume_direction": {
+        "north_component": -0.707,
+        "east_component": -0.707,
+        "description": "Southwest (monsoon-driven)"
+      },
+      "plume_endpoint": {
+        "lat": 23.39,
+        "lon": 65.79,
+        "description": "Estimated plume center after 200 km spread"
+      },
+      "seasonal_pattern": {
+        "monsoon_peak": "August-October",
+        "intensity_factor": 1.3,
+        "dry_season_factor": 0.6
+      }
+    }
+  ]
+}

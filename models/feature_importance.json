@@ -1,0 +1,23 @@
+{
+  "features": [
+    "chl_t",
+    "chl_t8",
+    "chl_t16",
+    "delta_chlor",
+    "month_sin",
+    "month_cos"
+  ],
+  "importance_method": "gain",
+  "importance_normalized": {
+    "delta_chlor": 0.3969395138722263,
+    "chl_t": 0.25610600507713305,
+    "month_sin": 0.16142998064782726,
+    "month_cos": 0.0689134415162578,
+    "chl_t16": 0.0647869528425054,
+    "chl_t8": 0.0518241060440502
+  },
+  "metadata": {
+    "total_importance_raw": 11.37858897447586,
+    "normalization": "sum to 1.0"
+  }
+}

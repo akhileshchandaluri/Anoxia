@@ -1,0 +1,139 @@
+{
+  "n_traps": 16,
+  "traps": [
+    {
+      "lat": 23.804296864248226,
+      "lon": 67.26088254488873,
+      "p_hypoxia": 0.0029381776368737973,
+      "severity": 0.00998980396537091,
+      "window_days": 8,
+      "trajectory_id": 0
+    },
+    {
+      "lat": 16.347554331597852,
+      "lon": 72.76110321981426,
+      "p_hypoxia": 0.004030151548432808,
+      "severity": 0.013702515264671547,
+      "window_days": 8,
+      "trajectory_id": 1
+    },
+    {
+      "lat": 23.555441430440226,
+      "lon": 67.6065175826481,
+      "p_hypoxia": 0.004300090328996617,
+      "severity": 0.014620307118588496,
+      "window_days": 8,
+      "trajectory_id": 2
+    },
+    {
+      "lat": 18.337738395506577,
+      "lon": 71.12944301967678,
+      "p_hypoxia": 0.003345743924363984,
+      "severity": 0.011375529342837545,
+      "window_days": 8,
+      "trajectory_id": 3
+    },
+    {
+      "lat": 15.1101245141245,
+      "lon": 67.7054508455484,
+      "p_hypoxia": 0.005090579264140119,
+      "severity": 0.017307969498076406,
+      "window_days": 8,
+      "trajectory_id": 4
+    },
+    {
+      "lat": 23.498892906616923,
+      "lon": 67.77963678253117,
+      "p_hypoxia": 0.003096034919747003,
+      "severity": 0.01052651872713981,
+      "window_days": 8,
+      "trajectory_id": 5
+    },
+    {
+      "lat": 9.3257866247559,
+      "lon": 74.28655965340386,
+      "p_hypoxia": 0.0012373559034490394,
+      "severity": 0.004207010071726734,
+      "window_days": 8,
+      "trajectory_id": 6
+    },
+    {
+      "lat": 23.747019597157024,
+      "lon": 67.19654560085203,
+      "p_hypoxia": 0.0034549404132620267,
+      "severity": 0.011746797405090891,
+      "window_days": 8,
+      "trajectory_id": 7
+    },
+    {
+      "lat": 7.934467685992836,
+      "lon": 87.62597986396332,
+      "p_hypoxia": 0.004973799936427714,
+      "severity": 0.016910919783854228,
+      "window_days": 8,
+      "trajectory_id": 8
+    },
+    {
+      "lat": 7.445686134262473,
+      "lon": 87.38802914054811,
+      "p_hypoxia": 0.0020764255412232717,
+      "severity": 0.0070598468401591235,
+      "window_days": 8,
+      "trajectory_id": 9
+    },
+    {
+      "lat": 8.499398144567039,
+      "lon": 87.00367722115554,
+      "p_hypoxia": 0.001228899680899625,
+      "severity": 0.004178258915058725,
+      "window_days": 8,
+      "trajectory_id": 10
+    },
+    {
+      "lat": 8.475471183391928,
+      "lon": 86.2391956901655,
+      "p_hypoxia": 0.00437541709146826,
+      "severity": 0.014876418110992084,
+      "window_days": 8,
+      "trajectory_id": 11
+    },
+    {
+      "lat": 19.762769489781828,
+      "lon": 85.97405297967586,
+      "p_hypoxia": 0.0013446599477349467,
+      "severity": 0.004571843822298818,
+      "window_days": 8,
+      "trajectory_id": 12
+    },
+    {
+      "lat": 7.543645766990312,
+      "lon": 87.53379474976917,
+      "p_hypoxia": 0.0016009947331524714,
+      "severity": 0.0054433820927184025,
+      "window_days": 8,
+      "trajectory_id": 13
+    },
+    {
+      "lat": 7.348204912765622,
+      "lon": 87.29867061731271,
+      "p_hypoxia": 0.002419501193491778,
+      "severity": 0.008226304057872044,
+      "window_days": 8,
+      "trajectory_id": 14
+    },
+    {
+      "lat": 8.401835047203804,
+      "lon": 85.82443988964259,
+      "p_hypoxia": 0.007091622904438097,
+      "severity": 0.024111517875089528,
+      "window_days": 8,
+      "trajectory_id": 15
+    }
+  ],
+  "metadata": {
+    "threshold_p_hypoxia": 0.05,
+    "severity_multiplier": 3.4,
+    "detection_method": "ConvexHull + bilinear interpolation",
+    "total_trajectories": 16
+  }
+}

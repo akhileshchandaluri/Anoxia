@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: anoxia-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend_requirements.txt
+    startCommand: python backend_api.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
